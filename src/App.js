@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import logo1 from './logo1.svg';
+import logo2 from './logo2.svg';
 import './App.css';
 import Posts from './components/posts';
+import PostForm from './components/postForm';
 
 class App extends Component {
   render() {
@@ -11,7 +14,9 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
-        </header>
+        </header> */}
+        <PostForm />
+        <hr/>
         <Posts />
       </div>
     );
