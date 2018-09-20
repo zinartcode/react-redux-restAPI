@@ -32,13 +32,14 @@
 
 /* test */
 
-/* html, body {
-  background: #333;
+ html, body {
+  background: #d5dfef;
   height: 100%;
   overflow: hidden;
   text-align: center;
 }
 
+/*
 .svg-wrapper {
   height: 60px;
     margin: 0 auto;
